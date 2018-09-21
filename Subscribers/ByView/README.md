@@ -6,7 +6,7 @@
 
 **Method:** Get
 
-**Authentication:** Auth Data in headers. for more details [click here](https://github.com/chenrosenblum/my-description/tree/master/Authentication/ )
+**Authentication:** Auth Data in headers. for more details [click here](https://github.com/responder/restapi/tree/master/Authentication/ )
 
 **Parameters (Optional) - Passed by Url query:**
   
@@ -30,7 +30,7 @@
 
 **Method:** Post
 
-**Authentication:** Auth Data in headers. for more details [click here](https://github.com/chenrosenblum/my-description/tree/master/Authentication/ )
+**Authentication:** Auth Data in headers. for more details [click here](https://github.com/responder/restapi/tree/master/Authentication/ )
 
 **Parameter (Required!) - Passed By Post data:**
   
@@ -69,7 +69,7 @@
 
 **Method:** Delete
 
-**Authentication:** Auth Data in headers. for more details [click here](https://github.com/chenrosenblum/my-description/tree/master/Authentication/ )
+**Authentication:** Auth Data in headers. for more details [click here](https://github.com/responder/restapi/tree/master/Authentication/ )
 
 **Parameters (Required!) - Passed By Post data:**
 

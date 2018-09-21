@@ -22,6 +22,6 @@ Please email chen@responder.co.il if you find any bugs or need any help with you
 
 
 # Authentication
-To make a REST API call, you must include request headers including the Authorization header (as explained [here](https://github.com/chenrosenblum/my-description/tree/master/Authentication )).
+To make a REST API call, you must include request headers including the Authorization header (as explained [here](https://github.com/responder/restapi/tree/master/Authentication )).
 
 Get your Tokens by contact our support: 03-717-7777
