@@ -1,5 +1,5 @@
 
-![RavMesser](https://raw.githubusercontent.com/chenrosenblum/my-description/master/ravmesser_logo.png)
+![RavMesser](https://raw.githubusercontent.com/responder/restapi/master/ravmesser_logo.png)
 # Rav-Messer RestAPI
 
 This is an up to date documentation for RavMesser RestAPI.
@@ -10,15 +10,15 @@ Please email chen@responder.co.il if you find any bugs or need any help with you
 # index
 
 
-[Lists](https://github.com/chenrosenblum/my-description/tree/master/Lists ) - Retrieve, Create, Update and Delete.
+[Lists](https://github.com/responder/restapi/tree/master/Lists ) - Retrieve, Create, Update and Delete.
 
-[Messages](https://github.com/chenrosenblum/my-description/tree/master/Messages ) - Retrieve, Create, Update, Delete, Test and Send.
+[Messages](https://github.com/responder/restapi/tree/master/Messages ) - Retrieve, Create, Update, Delete, Test and Send.
 
-[PersonalFields](https://github.com/chenrosenblum/my-description/tree/master/PersonalFields ) - Retrieve, Create, Update and delete.
+[PersonalFields](https://github.com/responder/restapi/tree/master/PersonalFields ) - Retrieve, Create, Update and delete.
 
-[Subscribers](https://github.com/chenrosenblum/my-description/tree/master/Subscribers ) - Retrieve, Create, Update and delete either by list or by view.
+[Subscribers](https://github.com/responder/restapi/tree/master/Subscribers ) - Retrieve, Create, Update and delete either by list or by view.
 
-[Views](https://github.com/chenrosenblum/my-description/tree/master/Views ) - Retrieve, Create, Update and Delete.
+[Views](https://github.com/responder/restapi/tree/master/Views ) - Retrieve, Create, Update and Delete.
 
 
 # Authentication
