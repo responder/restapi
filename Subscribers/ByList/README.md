@@ -64,7 +64,7 @@
               "EMAIL" : "johnsmith@gmail.com",
               "PHONE" : "01-23456789",
               "DAY" : 12,
-              "NOTIFY" => 2
+              "NOTIFY" => 2  // parameter for email's notification for the user about new subscriber. (0 - don't notify / 1 - notify / 2 - according to list's settings)
            },
            {
               "NAME" : "Bob Jones",
@@ -74,7 +74,7 @@
                  3 : "Tel Aviv",
                  49 : "Honda Civic"
               }
-              "NOTIFY" => 0
+              "NOTIFY" => 0  // parameter for email's notification for the user about new subscriber. (0 - don't notify / 1 - notify / 2 - according to list's settings)
            }
         ]
 
