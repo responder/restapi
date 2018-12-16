@@ -5,7 +5,7 @@
 This is an up to date documentation for RavMesser RestAPI.
 
 
-Please email chen@responder.co.il if you find any bugs or need any help with your development.
+Please email api@responder.co.il if you find any bugs or need any help with your development.
 
 # index
 
