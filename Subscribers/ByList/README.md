@@ -30,6 +30,7 @@
             "STATUS":"1",
             "STATUS_NUM":"0",
             "DAY":"10",
+            "JOIN_DATE":"2020-02-20 22:22",
             "OFFSET":"0",
             "LAST_OPEN":"0",
             "PERSONAL_FIELDS":[
