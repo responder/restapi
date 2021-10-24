@@ -63,19 +63,19 @@
            {
               "NAME" : "John Smith",
               "EMAIL" : "johnsmith@gmail.com",
-              "PHONE" : "01-23456789",
+              "PHONE" : "04-23456789",
               "DAY" : 12,
-              "NOTIFY" => 2  // parameter for email's notification for the user about new subscriber. (0 - don't notify / 1 - notify / 2 - according to list's settings)
+              "NOTIFY" : 2 // parameter for email's notification for the user about new subscriber. (0 - don't notify / 1 - notify / 2 - according to list's settings)
            },
            {
               "NAME" : "Bob Jones",
               "EMAIL" : "bobjones@yahoo.com",
-              "PHONE" : "09-87654321",
+              "PHONE" : "03-87654321",
               "PERSONAL_FIELDS" : {
                  3 : "Tel Aviv",
                  49 : "Honda Civic"
               }
-              "NOTIFY" => 0  // parameter for email's notification for the user about new subscriber. (0 - don't notify / 1 - notify / 2 - according to list's settings)
+              "NOTIFY": 0  // parameter for email's notification for the user about new subscriber. (0 - don't notify / 1 - notify / 2 - according to list's settings)
            }
         ]
 
@@ -120,13 +120,13 @@
               "IDENTIFIER" : "js@gmail.com",
               "EMAIL" : "johnsmith@gmail.com",
               "NAME" : "John Smith",
-              "PHONE" : "01-23456789",
+              "PHONE" : "04-23456789",
               "DAY" : 12
            },
            {
               "IDENTIFIER" : 123,
               "NAME" : "Bob Jones",
-              "PHONE" : "09-87654321",
+              "PHONE" : "03-87654321",
               "PERSONAL_FIELDS" : {
                  3 : "Tel Aviv",
                  49 : "Honda Civic"
