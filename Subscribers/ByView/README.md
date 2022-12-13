@@ -42,17 +42,14 @@
 
 **Subscriber IDs Example:**
         
-    {
-        "VIEW_SUBSCRIBERS_CREATED":
-                {
-                    "12345677":"subscriberemail@gmail.com",
-                    "77654321":"anothersubemail@gmail.com"
-                },
-        "VIEW_SUBSCRIBERS_EXISTING":[],
-        "INVALID_SUBSCRIBER_IDS":[],
-        "INVALID_SUBSCRIBER_EMAILS":[],
-        "ERRORS":[]}
-    }
+    [
+       {
+          "ID":"12345677"
+       },
+       {
+          "ID":"77654321"
+       }
+    ]
 
 **Response Example:**
 
