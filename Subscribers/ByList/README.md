@@ -41,6 +41,22 @@
         }
     ]
 
+**Subscriber Status:**
+
+"STATUS" refers to the subscriber's status in the list:
+
+active - 1 
+
+inactive - 0
+
+"STATUS_NUM" indicates the reason for inactivity:
+
+0 - מופסק משלוח (הסרה כתוצאה מאוטומציה) 
+
+1 - הוסר ידנית / הסיר עצמו / נחסם בחשבון או במערכת
+
+2 - חסום כתוצאה מחזרות
+
 ## Create subscribers in list - By "POST" request
 
 **URL:** http://api.responder.co.il/main/lists/ + listId + /subscribers
