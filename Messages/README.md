@@ -67,15 +67,18 @@
 
 **Authentication:** Auth Data in headers. for more details [click here](https://github.com/responder/restapi/tree/master/Authentication/ )
 
-**Parameter (Required!) - Passed By Post data:**
+
+**Parameters (Required!):**
+
+The request body should be sent as `application/x-www-form-urlencoded` with the following parameters:
   
-  | Name     | Description | Example |
+  | Key     | Value | Example |
   | ---------|-------------|---------|
-  | info | Json object with Message's data | See bellow the full Json example |
+  | info | JSON object with Message's data | See bellow the full JSON example |
 
-*In post-data: The Json object has to be sent in json-encode variation*
+*The JSON object inside the value has to converted into a string*
 
-**Json object of Message's data Example:**
+**JSON object of Message's data Example:**
 
        {
           "TYPE" : "1", // 1 for "messer boded", 0 for "sidrat messarim", 2 for "mevusas ta'arich"
@@ -103,15 +106,17 @@
 
 **Authentication:** Auth Data in headers. for more details [click here](https://github.com/responder/restapi/tree/master/Authentication/ )
 
-**Parameter (Required!) - Passed By Post data:**
+**Parameters (Required!):**
+
+The request body should be sent as `application/x-www-form-urlencoded` with the following parameters:
   
-  | Name     | Description | Example | Notice! |
+  | Key     | Value | Example | Notice! |
   | ---------|-------------|---------|---------|
-  | info | Json object with Message's data | See bellow the full Json example | Json object must have "ID" attribute for applying the update
+  | info | JSON object with Message's data | See bellow the full JSON example | JSON object must have "ID" attribute for applying the update
 
-*In post-data: The Json object has to be sent in json-encode variation*
+*The JSON object inside the value has to converted into a string*
 
-**Json object of Message's data Example:**
+**JSON object of Message's data Example:**
 
        {
           "ID" : "12345", // This attribute is mandatory for update!
@@ -140,15 +145,15 @@
 
 **Authentication:** Auth Data in headers. for more details [click here](https://github.com/responder/restapi/tree/master/Authentication/ )
 
-**Parameter (Required!) - Passed By Post data:**
+**Parameters (Required!):**
   
-  | Name     | Description | Example |
+  | Key     | Value | Example |
   | ---------|-------------|---------|
-  | data | Json object with Tester's data | See bellow the full Json example |
+  | data | JSON object with Tester's data | See bellow the full JSON example |
 
-*In post-data: The Json object has to be sent in json-encode variation*
+*The JSON object inside the value has to converted into a string*
 
-**Json object of List's data Example:**
+**JSON object of List's data Example:**
 
        {
           "name" : "your name"
@@ -190,9 +195,11 @@
 
 **Authentication:** Auth Data in headers. for more details [click here](https://github.com/responder/restapi/tree/master/Authentication/ )
 
-**Parameters (Required!) - Passed By Post data:**
+**Parameters (Required!):**
 
-  | Name     | Description | Example     |
+The request body should be sent as `application/x-www-form-urlencoded` with the following parameters:
+
+  | Key     | Value | Example     |
   | ---------|-------------|-------------|
   | messages_ids  | Array of Messages IDs to be deleted | see example in list bellow |
   
