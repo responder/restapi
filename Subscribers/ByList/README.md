@@ -65,13 +65,16 @@ inactive - 0
 
 **Authentication:** Auth Data in headers. for more details [click here](https://github.com/responder/restapi/tree/master/Authentication/ )
 
-**Parameter (Required!) - Passed By Post data:**
+**Parameters (Required!):**
+
+The request body should be sent as `application/x-www-form-urlencoded` with the following parameters:
+
   
-  | Name     | Description | Example |
+  | Key     | Value | Example |
   | ---------|-------------|---------|
   | subscribers | Json object with Subscribers' data | See bellow the full Json example |
 
-*In post-data: The Json object has to be sent in json-encode variation*
+*The JSON object inside the value has to converted into a string*
 
 **Json object of List's data Example:**
         
@@ -121,13 +124,15 @@ inactive - 0
 
 **Authentication:** Auth Data in headers. for more details [click here](https://github.com/responder/restapi/tree/master/Authentication/ )
 
-**Parameter (Required!) - Passed By Post data:**
+**Parameter (Required!):**
+
+The request body should be sent as `application/x-www-form-urlencoded` with the following parameters:
   
-  | Name     | Description | Example | NOTE! |
+  | Key     | Value | Example | NOTE! |
   | ---------|-------------|---------|-------|
   | subscribers | Json object with Subscribers' data to update | See bellow the full Json example | Updating "EMAIL_NOTIFY" or "AUTOMATION" will delete the previous records!
   
-*In post-data: The Json object has to be sent in json-encode variation*
+*The JSON object inside the value has to converted into a string*
 
 **Json object of List's data Example:**
         
@@ -175,9 +180,11 @@ inactive - 0
 
 **Authentication:** Auth Data in headers. for more details [click here](https://github.com/responder/restapi/tree/master/Authentication/ )
 
-**Parameters (Required!) - Passed By Post data:**
+**Parameters (Required!):**
 
-  | Name     | Description | Example     |
+The request body should be sent as `application/x-www-form-urlencoded` with the following parameters:
+
+  | Key     | Value | Example     |
   | ---------|-------------|-------------|
   | subscribers  | Array of IDs and / or email address to be deleted | see example in list bellow |
   
