@@ -48,13 +48,15 @@
 
 **Authentication:** Auth Data in headers. for more details [click here](https://github.com/responder/restapi/tree/master/Authentication/ )
 
-**Parameter (Required!) - Passed by Post data:**
-  
-  | Name     | Description | PassedBy  | Example |
-  | ---------|-------------|-----------|---------|
-  | personal_fields | Array of Json objects with PersonalFields' data | Post data | See bellow the full Json example |
+**Parameter (Required!):**
 
-*In post-data: The Json object has to be sent in json-encode variation*
+The request body should be sent as `application/x-www-form-urlencoded` with the following parameters:
+  
+  | Key     | Value | Example |
+  | ---------|-------------|---------|
+  | personal_fields | Array of Json objects with PersonalFields' data | See bellow the full Json example |
+
+*The JSON object inside the value has to converted into a string*
 
 **Json object of List's data Example:**
         
@@ -93,12 +95,14 @@
 **Authentication:** Auth Data in headers. for more details [click here](https://github.com/responder/restapi/tree/master/Authentication/ )
 
 **Parameter (Required!):**
+
+The request body should be sent as `application/x-www-form-urlencoded` with the following parameters:
   
-  | Name     | Description | PassedBy  | Example | NOTE! |
-  | ---------|-------------|-----------|---------|-------|
-  | personal_fields | Array of Json objects with Personal fields' data to update | Post data | See bellow the full Json example | Updating "EMAIL_NOTIFY" or "AUTOMATION" will delete the previous records!
+  | Name     | Description | Example | NOTE! |
+  | ---------|-------------|---------|-------|
+  | personal_fields | Array of Json objects with Personal fields' data to update | See bellow the full Json example | Updating "EMAIL_NOTIFY" or "AUTOMATION" will delete the previous records!
   
-*In post-data: The Json object has to be sent in json-encode variation*
+*The JSON object inside the value has to converted into a string*
 
 **Json object of List's data Example:**
         
@@ -131,9 +135,11 @@
 
 **Authentication:** Auth Data in headers. for more details [click here](https://github.com/responder/restapi/tree/master/Authentication/ )
 
-**Parameters (Required!) - Passed By Post data:**
+**Parameters (Required!):**
 
-  | Name     | Description | Example     |
+The request body should be sent as `application/x-www-form-urlencoded` with the following parameters:
+
+  | Key     | Value | Example     |
   | ---------|-------------|-------------|
   | personal_fields  | Array of personal-field ID's to be deleted | see LIST example bellow |
   

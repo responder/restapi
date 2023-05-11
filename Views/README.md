@@ -39,13 +39,15 @@
 
 **Authentication:** Auth Data in headers. for more details [click here](https://github.com/responder/restapi/tree/master/Authentication/ )
 
-**Parameter (Required!) - Passed by Post data:**
-  
-  | Name     | Description | PassedBy  | Example |
-  | ---------|-------------|-----------|---------|
-  | views | Array of Json objects with Views' names | Post data | See bellow the full Json example |
+**Parameter (Required!):**
 
-*In post-data: The Json object has to be sent in json-encode variation*
+The request body should be sent as `application/x-www-form-urlencoded` with the following parameters:
+  
+  | Key     | Value | Example |
+  | ---------|-------------|---------|
+  | views | Array of Json objects with Views' names | See bellow the full Json example |
+
+*The JSON object inside the value has to converted into a string*
 
 **Json object of List's data Example:**
         
@@ -76,11 +78,13 @@
 
 **Parameter (Required!):**
   
-  | Name     | Description | PassedBy  | Example |
-  | ---------|-------------|-----------|---------|
+  The request body should be sent as `application/x-www-form-urlencoded` with the following parameters:
+
+  | Key     | Value | Example |
+  | ---------|-------------|---------|
   | views | Array of Json objects with Views' data to update | Post data | See bellow the full Json example |
 
-*In post-data: The Json object has to be sent in json-encode variation*
+*The JSON object inside the value has to converted into a string*
 
 **Json object of List's data Example:**
         
@@ -112,9 +116,11 @@
 
 **Authentication:** Auth Data in headers. for more details [click here](https://github.com/responder/restapi/tree/master/Authentication/ )
 
-**Parameters (Required!) - Passed By Post data:**
+**Parameters (Required!):**
 
-  | Name     | Description | Example     |
+The request body should be sent as `application/x-www-form-urlencoded` with the following parameters:
+
+  | Key     | Value | Example     |
   | ---------|-------------|-------------|
   | method | "delete" value has to be passed | method="delete" | 
   | personal_fields  | Array of views ID's to be deleted | see example in list bellow |
