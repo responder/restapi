@@ -77,6 +77,8 @@ The request body should be sent as `application/x-www-form-urlencoded` with the 
 *The JSON object inside the value has to converted into a string*
 
 **Json object of List's data Example:**
+
+**Please note** - the following mobile phone prefixes are considered invalid: 056, 059
         
         [
            {
