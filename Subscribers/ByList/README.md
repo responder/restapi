@@ -1,5 +1,22 @@
 # Subscribers
 
+## Subscriber object
+
+| Fields         | Description                                                                                                                                                                          |
+|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  **ID**  <br> Integer         |  The Subscriber's ID                                                                                                                                                                           |
+|  **STATUS**  <br> Boolean         |  The Subscriber's status                                                                                                                                                                           |
+|  **STATUS_NUM** <br>  Integer      | 0 -  removed by automation<br>1 - removed manually/unsubscribed/blocked at the account level or in the system<br>2 - blocked because of email bounces                                                                               |
+|  **ACCOUNT_STATUS** <br>  Boolean  |  The Subscriber's email status in the account                                                                                                                                                      |
+|  **EMAIL**  <br> String            |  The Subscriber's email address                                                                                                                                                                    |
+|  **PHONE**  <br> String           |  The Subscriber's phone number                                                                                                                                                                     |
+|  **PHONE_IGNORE** <br> Boolean    |  If set to true, a subscriber will be created even if an invalid phone number has been given.  The phone number will be excluded if invalid.                                                       |
+|  **NAME**  <br> String             |  The Subscriber's name                                                                                                                                                                             |
+|  **DAY** <br> Integer             |  The Subscriber's seniority                                                                                                                                                                        |
+|  **SEND_0** <br> Boolean          |  Set's whether to send the first message of the list the Subscriber belongs to.  * For the first message to be sent, the Subscriber's DAY must be set to 0 or the EMAIL changed  Default Value: 1  |
+|  **PERSONAL_FIELDS** <br> Array   |  An array of field id & field value pairs  Example Value:  <br> <pre>{123456 : "Responder", 654321 : "Newsletter Service" }  </pre>                                                                               |
+|  **NOTIFY** <br> Boolean          |  Set's whether to notify the owner of the list about the creation/deletion/update of the subscriber  Default Value: 0                                                                          |
+
 ## Retrieve subscribers from list - By "GET" request
 
 **URL:** http://api.responder.co.il/main/lists/ + listId + /subscribers
