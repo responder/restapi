@@ -112,7 +112,7 @@ The request body should be sent as `application/x-www-form-urlencoded` with the 
               "PERSONAL_FIELDS" : {
                  3 : "Tel Aviv",
                  49 : "Honda Civic"
-              }
+              },
               "NOTIFY": 0  // parameter for email's notification for the user about new subscriber. (0 - don't notify / 1 - notify / 2 - according to list's settings)
            }
         ]
