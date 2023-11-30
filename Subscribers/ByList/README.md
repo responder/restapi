@@ -14,7 +14,7 @@
 |  **NAME**  <br> String             |  The Subscriber's name                                                                                                                                                                             |
 |  **DAY** <br> Integer             |  The Subscriber's seniority                                                                                                                                                                        |
 |  **SEND_0** <br> Boolean          |  Set's whether to send the first message of the list the Subscriber belongs to.  * For the first message to be sent, the Subscriber's DAY must be set to 0 or the EMAIL changed  Default Value: 1  |
-|  **PERSONAL_FIELDS** <br> Array   |  An array of field id & field value pairs  Example Value:  <br> <pre>{123456 : "Responder", 654321 : "Newsletter Service" }  </pre>                                                                               |
+|  **PERSONAL_FIELDS** <br> Object   |  An object of field id & field value pairs  Example Value:  <br> <pre>{123456 : "Responder", 654321 : "Newsletter Service" }  </pre>                                                                               |
 |  **NOTIFY** <br> Boolean          |  Set's whether to notify the owner of the list about the creation/deletion/update of the subscriber  Default Value: 0                                                                          |
 
 ## Retrieve subscribers from list - By "GET" request
