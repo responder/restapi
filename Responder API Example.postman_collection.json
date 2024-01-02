@@ -1,0 +1,166 @@
+{
+	"info": {
+		"_postman_id": "da60f5e5-f98f-4001-bdd4-eb9dbfd302c5",
+		"name": "Responder API Example",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8721738"
+	},
+	"item": [
+		{
+			"name": "Add New Subscriber",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"let uuid = require('uuid');\r",
+							"const c_key= '';\r",
+							"const c_secret = '';\r",
+							"const u_key= '';\r",
+							"const u_secret = '';\r",
+							"const nonce = uuid.v4();\r",
+							"\r",
+							"\r",
+							"let Authorization = `c_key=${c_key},c_secret=${CryptoJS.MD5(c_secret + nonce)},u_key=${u_key},u_secret=${CryptoJS.MD5(u_secret + nonce)},nonce=${nonce},timestamp=${new Date().getTime() / 1000}`;\r",
+							"pm.collectionVariables.set(\"Auth\",Authorization)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{Auth}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "subscribers",
+							"value": "[{\"NAME\":\"test\",\"PHONE\":\"0522255555\",\"EMAIL\":\"test2@test.com\"}]",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://api.responder.co.il/main/lists/802195/subscribers",
+					"protocol": "http",
+					"host": [
+						"api",
+						"responder",
+						"co",
+						"il"
+					],
+					"path": [
+						"main",
+						"lists",
+						"802195",
+						"subscribers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET subscribers",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"let uuid = require('uuid');\r",
+							"const c_key= '';\r",
+							"const c_secret = '';\r",
+							"const u_key= '';\r",
+							"const u_secret = '';\r",
+							"const nonce = uuid.v4();\r",
+							"\r",
+							"\r",
+							"let Authorization = `c_key=${c_key},c_secret=${CryptoJS.MD5(c_secret + nonce)},u_key=${u_key},u_secret=${CryptoJS.MD5(u_secret + nonce)},nonce=${nonce},timestamp=${new Date().getTime() / 1000}`;\r",
+							"pm.environment.set(\"Auth\", Authorization);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{Auth}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://api.responder.co.il/main/lists/802195/subscribers",
+					"protocol": "http",
+					"host": [
+						"api",
+						"responder",
+						"co",
+						"il"
+					],
+					"path": [
+						"main",
+						"lists",
+						"802195",
+						"subscribers"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "Auth",
+			"value": "",
+			"type": "string"
+		}
+	]
+}
