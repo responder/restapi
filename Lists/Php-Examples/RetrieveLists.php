@@ -36,7 +36,7 @@ function send_get_request($url, $headers)
 
 //GET - Retrieve user's lists
 
-$http_lists_url = 'http://api.responder.co.il/main/lists';
+$http_lists_url = 'https://api.responder.co.il/main/lists';
 
 $headers = array(createAuthDataHeader());
 $response = send_get_request($http_lists_url.'?offset=3&limit=2', $headers);

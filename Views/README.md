@@ -2,7 +2,7 @@
 
 ## Retrieve views of list - By "GET" request
 
-**URL:** http://api.responder.co.il/main/lists/ + listId + /views
+**URL:** https://api.responder.co.il/main/lists/ + listId + /views
 
 **Method:** Get
 
@@ -33,7 +33,7 @@
     
 ## Create views in list - By "POST" request
 
-**URL:** http://api.responder.co.il/main/lists/ + listId + /views
+**URL:** https://api.responder.co.il/main/lists/ + listId + /views
 
 **Method:** Post
 
@@ -70,7 +70,7 @@ The request body should be sent as `application/x-www-form-urlencoded` with the 
 
 ## Update views in list - By "PUT" request
 
-**URL:** http://api.responder.co.il/main/lists/ + listId + /views
+**URL:** https://api.responder.co.il/main/lists/ + listId + /views
 
 **Method:** Put
 
@@ -110,7 +110,7 @@ The request body should be sent as `application/x-www-form-urlencoded` with the 
 
 ## Delete views in list - By "POST" request
 
-**URL:** http://api.responder.co.il/main/lists/ + listId + /views
+**URL:** https://api.responder.co.il/main/lists/ + listId + /views
 
 **Method:** Post
 

@@ -48,7 +48,7 @@
 					]
 				},
 				"url": {
-					"raw": "http://api.responder.co.il/main/lists/802195/subscribers",
+					"raw": "https://api.responder.co.il/main/lists/802195/subscribers",
 					"protocol": "http",
 					"host": [
 						"api",
@@ -110,7 +110,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://api.responder.co.il/main/lists/802195/subscribers",
+					"raw": "https://api.responder.co.il/main/lists/802195/subscribers",
 					"protocol": "http",
 					"host": [
 						"api",

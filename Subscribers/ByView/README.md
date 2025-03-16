@@ -2,7 +2,7 @@
 
 ## Retrieve subscribers of view - By "GET" request
 
-**URL:** http://api.responder.co.il/main/lists/ + listId + /views/ + viewId + /subscribers
+**URL:** https://api.responder.co.il/main/lists/ + listId + /views/ + viewId + /subscribers
 
 **Method:** Get
 
@@ -26,7 +26,7 @@
 
 ## Associate existing subscribers to view - By "POST" request
 
-**URL:** http://api.responder.co.il/main/lists/ + listId + /views/ + viewId + /subscribers
+**URL:** https://api.responder.co.il/main/lists/ + listId + /views/ + viewId + /subscribers
 
 **Method:** Post
 
@@ -64,7 +64,7 @@ The request body should be sent as `application/x-www-form-urlencoded` with the 
     
 ## Delete Subscribers from view - By "DELETE" request
 
-**URL:** http://api.responder.co.il/main/lists/ + listId + /views/ + viewId + /subscribers
+**URL:** https://api.responder.co.il/main/lists/ + listId + /views/ + viewId + /subscribers
 
 **Method:** Delete
 

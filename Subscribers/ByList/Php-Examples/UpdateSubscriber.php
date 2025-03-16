@@ -48,7 +48,7 @@ function send_put_request($url, $data, $headers)
 
 //PUT - Update a subscriber in list
 $listId = 0;
-$http_susbscribers_url = "http://api.responder.co.il/main/lists/$listId/subscribers";
+$http_susbscribers_url = "https://api.responder.co.il/main/lists/$listId/subscribers";
 
 $post_data =
     'subscribers=' . json_encode(

@@ -38,7 +38,7 @@ function send_get_request($url, $headers)
 
 //GET - Retrieve subscribers from list
 $listId = 0;
-$http_susbscribers_url = "http://api.responder.co.il/main/lists/$listId/subscribers";
+$http_susbscribers_url = "https://api.responder.co.il/main/lists/$listId/subscribers";
 
 $headers = array(createAuthDataHeader());
 

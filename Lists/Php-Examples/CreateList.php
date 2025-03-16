@@ -45,7 +45,7 @@ function send_post_request($url, $data, $headers)
 }
 
 //POST - create a new list
-$http_lists_url = 'http://api.responder.co.il/main/lists';
+$http_lists_url = 'https://api.responder.co.il/main/lists';
 $post_data =
     'info=' . json_encode(
         array(

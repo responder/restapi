@@ -2,7 +2,7 @@
 
 ## Retrieve lists - By "GET" request
 
-**URL:** http://api.responder.co.il/main/lists
+**URL:** https://api.responder.co.il/main/lists
 
 **Method:** Get
 
@@ -55,7 +55,7 @@
 
 ## Create a list - By "POST" request
 
-**URL:** http://api.responder.co.il/main/lists
+**URL:** https://api.responder.co.il/main/lists
 
 **Method:** Post
 
@@ -106,7 +106,7 @@ The request body should be sent as `application/x-www-form-urlencoded` with the 
 
 ## Update a list - By "PUT" request
 
-**URL:** http://api.responder.co.il/main/lists/ + listIdToUpdate
+**URL:** https://api.responder.co.il/main/lists/ + listIdToUpdate
 
 **Method:** Put
 
@@ -156,7 +156,7 @@ The request body should be sent as `application/x-www-form-urlencoded` with the 
 
 ## Delete a list - By "DELETE" request
 
-**URL:** http://api.responder.co.il/main/lists/ + listIdToDelete
+**URL:** https://api.responder.co.il/main/lists/ + listIdToDelete
 
 **Method:** Delete
 

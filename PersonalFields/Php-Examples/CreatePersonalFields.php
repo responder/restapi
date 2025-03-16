@@ -47,7 +47,7 @@ function send_post_request($url, $data, $headers)
 
 //POST - Create personal-fields in list
 $listId = 0;
-$http_messages_url = "http://api.responder.co.il/main/lists/$listId/personal_fields";
+$http_messages_url = "https://api.responder.co.il/main/lists/$listId/personal_fields";
 
 $headers = array(createAuthDataHeader());
 

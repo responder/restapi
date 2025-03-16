@@ -39,7 +39,7 @@ function send_get_request($url, $headers)
 
 //GET - Retrieve views in list
 $listId = 0;
-$http_view_url = "http://api.responder.co.il/main/lists/$listId/views";
+$http_view_url = "https://api.responder.co.il/main/lists/$listId/views";
 
 $headers = array(createAuthDataHeader());
 $response = send_get_request($http_view_url, $headers);

@@ -19,7 +19,7 @@
 
 ## Retrieve subscribers from list - By "GET" request
 
-**URL:** http://api.responder.co.il/main/lists/ + listId + /subscribers
+**URL:** https://api.responder.co.il/main/lists/ + listId + /subscribers
 
 **Method:** Get
 
@@ -76,7 +76,7 @@ inactive - 0
 
 ## Create subscribers in list - By "POST" request
 
-**URL:** http://api.responder.co.il/main/lists/ + listId + /subscribers
+**URL:** https://api.responder.co.il/main/lists/ + listId + /subscribers
 
 **Method:** Post
 
@@ -137,7 +137,7 @@ The request body should be sent as `application/x-www-form-urlencoded` with the 
 
 ## Update subscribers in list - By "PUT" request
 
-**URL:** http://api.responder.co.il/main/lists/ + listId + /subscribers
+**URL:** https://api.responder.co.il/main/lists/ + listId + /subscribers
 
 **Method:** Put
 
@@ -193,7 +193,7 @@ The request body should be sent as `application/x-www-form-urlencoded` with the 
     
 ## Delete Subscribers from list - By "DELETE" request
 
-**URL:** http://api.responder.co.il/main/lists/ + listId + /subscribers
+**URL:** https://api.responder.co.il/main/lists/ + listId + /subscribers
 
 **Method:** Delete
 

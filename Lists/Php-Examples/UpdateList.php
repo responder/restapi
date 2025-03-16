@@ -46,7 +46,7 @@ function send_put_request($url, $data, $headers)
 }
 
 //PUT - update a list
-$http_lists_url = 'http://api.responder.co.il/main/lists';
+$http_lists_url = 'https://api.responder.co.il/main/lists';
 $post_data =
     'info=' . json_encode(
         array(

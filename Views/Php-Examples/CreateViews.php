@@ -49,7 +49,7 @@ function send_post_request($url, $data, $headers)
 
 //POST - create a new view in list
 $listId = 0;
-$http_susbscribers_url = "http://api.responder.co.il/main/lists/$listId/views";
+$http_susbscribers_url = "https://api.responder.co.il/main/lists/$listId/views";
 
 $post_data =
     'views=' . json_encode(

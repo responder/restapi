@@ -38,7 +38,7 @@ function send_get_request($url, $headers)
 
 //GET - Retrieve personal-fields from list
 $listId = 372147;
-$http_messages_url = "http://api.responder.co.il/main/lists/$listId/personal_fields";
+$http_messages_url = "https://api.responder.co.il/main/lists/$listId/personal_fields";
 
 $headers = array(createAuthDataHeader());
 

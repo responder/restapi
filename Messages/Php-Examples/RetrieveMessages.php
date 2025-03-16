@@ -37,7 +37,7 @@ function send_get_request($url, $headers)
 
 //GET - Retrieve messages from list
 $listId = 0;
-$http_messages_url = "http://api.responder.co.il/main/lists/$listId/messages";
+$http_messages_url = "https://api.responder.co.il/main/lists/$listId/messages";
 $headers = array(createAuthDataHeader());
 $response = send_get_request($http_messages_url, $headers);
 echo $response;

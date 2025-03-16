@@ -46,7 +46,7 @@ function send_delete_request($url, $data, $headers)
 
 //DELETE - Delete personal-fields from list
 $listId = 0;
-$http_messages_url = "http://api.responder.co.il/main/lists/$listId/personal_fields";
+$http_messages_url = "https://api.responder.co.il/main/lists/$listId/personal_fields";
 
 $headers = array(createAuthDataHeader());
 

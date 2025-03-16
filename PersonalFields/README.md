@@ -2,7 +2,7 @@
 
 ## Retrieve personal fields of list - By "GET" request
 
-**URL:** http://api.responder.co.il/main/lists/ + listId + /personal_fields
+**URL:** https://api.responder.co.il/main/lists/ + listId + /personal_fields
 
 **Method:** Get
 
@@ -42,7 +42,7 @@
     
 ## Create personal fields in list - By "POST" request
 
-**URL:** http://api.responder.co.il/main/lists/ + listId + /personal_fields
+**URL:** https://api.responder.co.il/main/lists/ + listId + /personal_fields
 
 **Method:** Post
 
@@ -88,7 +88,7 @@ The request body should be sent as `application/x-www-form-urlencoded` with the 
 
 ## Update personal fields in list - By "PUT" request
 
-**URL:** http://api.responder.co.il/main/lists/ + listId + /personal_fields
+**URL:** https://api.responder.co.il/main/lists/ + listId + /personal_fields
 
 **Method:** Put
 
@@ -129,7 +129,7 @@ The request body should be sent as `application/x-www-form-urlencoded` with the 
 
 ## Delete Personal fields in list - By "DELETE" request
 
-**URL:** http://api.responder.co.il/main/lists/ + listId + /personal_fields
+**URL:** https://api.responder.co.il/main/lists/ + listId + /personal_fields
 
 **Method:** Delete
 

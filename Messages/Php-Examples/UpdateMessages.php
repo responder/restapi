@@ -49,7 +49,7 @@ function send_put_request($url, $data, $headers)
 //Put - Update a message in list
 $listId = 0;
 $messageId = 12345;
-$http_messages_url = "http://api.responder.co.il/main/lists/$listId/messages/$messageId";
+$http_messages_url = "https://api.responder.co.il/main/lists/$listId/messages/$messageId";
 
 $headers = array(createAuthDataHeader());
 

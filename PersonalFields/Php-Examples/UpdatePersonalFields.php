@@ -48,7 +48,7 @@ function send_put_request($url, $data, $headers)
 
 //PUT - Update personal-fields in list
 $listId = 0;
-$http_messages_url = "http://api.responder.co.il/main/lists/$listId/personal_fields";
+$http_messages_url = "https://api.responder.co.il/main/lists/$listId/personal_fields";
 
 $headers = array(createAuthDataHeader());
 

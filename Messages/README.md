@@ -2,9 +2,9 @@
 
 ## Retrieve messages from list - By "GET" request
 
-**URL for few messages:** http://api.responder.co.il/main/lists/ + listId + /messages
+**URL for few messages:** https://api.responder.co.il/main/lists/ + listId + /messages
 
-**URL for specific message:** http://api.responder.co.il/main/lists/ + listId + /messages/ + messageId
+**URL for specific message:** https://api.responder.co.il/main/lists/ + listId + /messages/ + messageId
 
 
 **Method:** Get
@@ -61,7 +61,7 @@
 
 ## Create message in list - By "POST" request
 
-**URL:** http://api.responder.co.il/main/lists/ + listId + /messages
+**URL:** https://api.responder.co.il/main/lists/ + listId + /messages
 
 **Method:** Post
 
@@ -100,7 +100,7 @@ The request body should be sent as `application/x-www-form-urlencoded` with the 
 
 ## Update message in list - By "PUT" request
 
-**URL:** http://api.responder.co.il/main/lists/ + listId + /messages/ + messageId
+**URL:** https://api.responder.co.il/main/lists/ + listId + /messages/ + messageId
 
 **Method:** Put
 
@@ -139,7 +139,7 @@ The request body should be sent as `application/x-www-form-urlencoded` with the 
 
 ## Test sending a message - By "POST" request
 
-**URL:** http://api.responder.co.il/main/lists/ + listId + /messages/ + messageId + /test
+**URL:** https://api.responder.co.il/main/lists/ + listId + /messages/ + messageId + /test
 
 **Method:** Post
 
@@ -173,7 +173,7 @@ The request body should be sent as `application/x-www-form-urlencoded` with the 
 
 ## Send a message - By "POST" request
 
-**URL:** http://api.responder.co.il/main/lists/ + listId + /messages/ + messageId
+**URL:** https://api.responder.co.il/main/lists/ + listId + /messages/ + messageId
 
 **Method:** Post
 
@@ -189,7 +189,7 @@ The request body should be sent as `application/x-www-form-urlencoded` with the 
    
 ## Delete messages from list - By "DELETE" request
 
-**URL:** http://api.responder.co.il/main/lists/ + listId + /messages
+**URL:** https://api.responder.co.il/main/lists/ + listId + /messages
 
 **Method:** Delete
 

@@ -45,7 +45,7 @@ function send_delete_request($url, $data, $headers)
 }
 
 $listId = 0;
-$http_susbscribers_url = "http://api.responder.co.il/main/lists/$listId/subscribers";
+$http_susbscribers_url = "https://api.responder.co.il/main/lists/$listId/subscribers";
 
 $post_data = "subscribers=" . json_encode(
         array(

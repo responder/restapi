@@ -33,7 +33,7 @@ function send_delete_request($url, $headers)
     return $response;
 }
 
-$http_lists_url = 'http://api.responder.co.il/main/lists';
+$http_lists_url = 'https://api.responder.co.il/main/lists';
 $list_id = 123456;
 
 $headers = array(createAuthDataHeader());

@@ -47,7 +47,7 @@ function send_delete_request($url, $data, $headers)
 
 //DELETE - Delete messages from list
 $listId = 0;
-$http_messages_url = "http://api.responder.co.il/main/lists/$listId/messages";
+$http_messages_url = "https://api.responder.co.il/main/lists/$listId/messages";
 
 $headers = array(createAuthDataHeader());
 

@@ -47,7 +47,7 @@ function send_post_request($url, $data, $headers)
 
 //POST - Create a message in list
 $listId = 372147;
-$http_messages_url = "http://api.responder.co.il/main/lists/$listId/messages";
+$http_messages_url = "https://api.responder.co.il/main/lists/$listId/messages";
 $headers = array(createAuthDataHeader());
 
 $post_data =

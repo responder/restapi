@@ -48,7 +48,7 @@ function send_post_request($url, $data, $headers)
 //POST - Send a message in list
 $listId = 0;
 $messageId = 123456;
-$http_messages_url = "http://api.responder.co.il/main/lists/$listId/messages/$messageId";
+$http_messages_url = "https://api.responder.co.il/main/lists/$listId/messages/$messageId";
 
 $headers = array(createAuthDataHeader());
 
